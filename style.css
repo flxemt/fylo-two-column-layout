@@ -1,0 +1,15 @@
+@tailwind base;
+@tailwind components;
+@tailwind utilities;
+
+.error-text {
+  display: none;
+}
+
+.validation-error .error-text {
+  display: block;
+}
+
+.validation-error input {
+  border: 1px solid hsl(343, 84%, 61%);
+}
